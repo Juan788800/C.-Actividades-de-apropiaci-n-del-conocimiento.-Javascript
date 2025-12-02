@@ -14,10 +14,10 @@ import vaca from "prompt-sync";
 const ingresar = vaca();
 
 // creamos las constantes para que ingresen las 4 notas
-const nota1 = parseFloat(ingresar("ingrese su primera nota por favor: "))
-const nota2 = parseFloat(ingresar("ingrese su segunda nota por favor: "))
-const nota3 = parseFloat(ingresar("ingrese su tercera nota por favor: "))
-const nota4 = parseFloat(ingresar("ingrese su cuarta nota por favor: "))
+const nota1 = parseFloat(ingresar("ingrese su primera nota por favor: "));
+const nota2 = parseFloat(ingresar("ingrese su segunda nota por favor: "));
+const nota3 = parseFloat(ingresar("ingrese su tercera nota por favor: "));
+const nota4 = parseFloat(ingresar("ingrese su cuarta nota por favor: "));
 
 // creamos las variable para la suma de las notas el promedio y el resultado de la operacion
 let suma_de_las_notas = nota1 + nota2 + nota3 + nota4;

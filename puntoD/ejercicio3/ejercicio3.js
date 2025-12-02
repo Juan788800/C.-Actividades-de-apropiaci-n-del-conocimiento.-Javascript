@@ -9,9 +9,9 @@ import vaca from "prompt-sync";
 const ingresar = vaca();
 
 // creamos las constantes para saber cuantas piezas produce y las horas trabajadas
-const piezas_por_hora = parseFloat(ingresar("ingrese cuantas piezas produce la fabrica por hora : "))
+const piezas_por_hora = parseFloat(ingresar("ingrese cuantas piezas produce la fabrica por hora : "));
 
-const horas_de_trabajo = parseFloat(ingresar("ingrese cuantas  horas trabajo en la fabrica : "))
+const horas_de_trabajo = parseFloat(ingresar("ingrese cuantas  horas trabajo en la fabrica : "));
 
 // creamos las variable del total de piezas, cajas llenas y peizas sueltas
 
